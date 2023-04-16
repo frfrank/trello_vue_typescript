@@ -1,0 +1,40 @@
+$color1: hsl(209, 92%, 42%);
+$color2: hsl(198, 82%, 42%);
+$color3: hsl(207, 76%, 46%);
+$color4: hsl(200, 100%, 27%);
+
+
+$color-primary: $color1;
+$color-primary-darkest: adjust-color($color-primary, $lightness: -35%);
+$color-primary-darker: adjust-color($color-primary, $lightness: -20%);
+$color-primary-dark: adjust-color($color-primary, $lightness: -10%);
+$color-primary-light: adjust-color($color-primary, $lightness: 15%);
+$color-primary-lighter: adjust-color($color-primary, $lightness: 35%);
+$color-primary-lightest: adjust-color($color-primary, $lightness: 45%);
+
+$color-secondary: $color4;
+$color-secondary-darkest: adjust-color($color-secondary, $lightness: -20%);
+$color-secondary-darker: adjust-color($color-secondary, $lightness: -15%);
+$color-secondary-dark: adjust-color($color-secondary, $lightness: -10%);
+$color-secondary-light: adjust-color($color-secondary, $lightness: 40%);
+$color-secondary-lighter: adjust-color($color-secondary, $lightness: 50%);
+$color-secondary-lightest: adjust-color($color-secondary, $lightness: 65%);
+
+$color-neutral-darkest: hsl(213, 12%, 5%);
+$color-neutral-darker: hsl(210, 11%, 22%);
+$color-neutral-dark: hsl(210, 9%, 31%);
+$color-neutral-mid-darker: hsl(210, 7%, 56%);
+$color-neutral-mid-dark: hsl(210, 11%, 71%);
+$color-neutral-mid: hsl(210, 14%, 83%);
+$color-neutral-mid-light: hsl(210, 14%, 89%);
+$color-neutral-light: hsl(210, 15%, 92%);
+$color-neutral-lighter: hsl(210, 17%, 95%);
+$color-neutral-lightest: hsl(210, 14%, 97%);
+
+$color-danger: hsl(351, 100%, 45%);
+$color-danger-darkest: adjust-color($color-danger, $lightness: -30%);
+$color-danger-darker: adjust-color($color-danger, $lightness: -20%);
+$color-danger-dark: adjust-color($color-danger, $lightness: -10%);
+$color-danger-light: adjust-color($color-danger, $lightness: 25%);
+$color-danger-lighter: adjust-color($color-danger, $lightness: 45%);
+$color-danger-lightest: adjust-color($color-danger, $lightness: 52%);

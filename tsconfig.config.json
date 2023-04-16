@@ -1,0 +1,9 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": ["vite.config.*", "vitest.config.*", "cypress.config.*", "playwright.config.*"],
+  "compilerOptions": {
+    "composite": true,
+    "types": ["node"],
+    "ignoreDeprecations": "5.0", // silence deprecation warnings ('importsNotUsedAsValues' is deprecated and will stop working in TypeScript 5.5.0)
+  }
+}

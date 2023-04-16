@@ -1,0 +1,21 @@
+$sm: 576;
+$md: 768;
+$lg: 992;
+$xl: 1300;
+
+$breakpoint-sm-min: 'screen and (min-width: '+$sm+'px)';
+$breakpoint-md-min: 'screen and (min-width: '+$md+'px)';
+$breakpoint-lg-min: 'screen and (min-width: '+$lg+'px)';
+$breakpoint-xl-min: 'screen and (min-width: '+$xl+'px)';
+
+$breakpoint-sm-max: 'screen and (max-width: '+($sm+1)+'px)';
+$breakpoint-md-max: 'screen and (max-width: '+($md+1)+'px)';
+$breakpoint-lg-max: 'screen and (max-width: '+($lg+1)+'px)';
+$breakpoint-xl-max: 'screen and (max-width: '+($xl+1)+'px)';
+
+:export {
+  sm: $sm;
+  md: $md;
+  lg: $lg;
+  xl: $xl;
+}
